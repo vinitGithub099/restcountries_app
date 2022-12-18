@@ -16,7 +16,7 @@ const CountryCard = ({ item }) => {
                 </Link>
                 <p><span className="font-[500]">Region: </span>{item.region}</p>
                 <p><span className="font-[500]">Population: </span>{item.population.toLocaleString()}</p>
-                <p><span className="font-[500]">Capital: </span>{item.capital}</p>
+                <p><span className="font-[500]">Capital: </span>{item.capital ? item.capital : `No Capital`}</p>
             </div>
         </div>
     )
