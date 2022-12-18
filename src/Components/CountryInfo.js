@@ -84,10 +84,13 @@ export default function CountryInfo() {
                                                 {borderCountries.length !== 0 ?
                                                     <div className={`flex justify-baseline flex-wrap sm:ml-2`}>
                                                         {borderCountries.map(i =>
-                                                            <p className={`mr-4 mb-4 p-2 bg-white rounded-md shadow-md ${darkTheme ? `bg-darkBlue` : `bg-white`}`}
-                                                                key={i}>
-                                                                {i}
-                                                            </p>
+                                                            <Link to={`/country_detail/${i}`}>
+                                                                <p className={`mr-4 mb-4 p-2 bg-white rounded-md shadow-md ${darkTheme ? `bg-darkBlue` : `bg-white`}`}
+                                                                    key={i}>
+                                                                    {i}
+                                                                </p>
+                                                            </Link>
+
                                                         )}
                                                     </div> : <p className={`mx-4 mb-4 p-2 bg-white rounded-md shadow-md ${darkTheme ? `bg-darkBlue` : `bg-white`}`}>No Data Available</p>
                                                 }

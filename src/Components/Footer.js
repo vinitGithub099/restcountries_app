@@ -3,7 +3,7 @@ import { CountryContext } from '../Components/CountryContext'
 
 export default function Footer() {
 
-    const { data, darkTheme } = useContext(CountryContext);
+    const { darkTheme } = useContext(CountryContext);
 
     return (
         <div className={`bg-white mt-16 py-8 ${darkTheme ? 'bg-darkBlue' : `bg-white`}`}>

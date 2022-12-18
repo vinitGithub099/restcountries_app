@@ -33,7 +33,7 @@ function App() {
 
       bgColorSwitch(!darkTheme);
 
-  }, [])
+  }, [darkTheme])
 
   const themeSwithcer = () => {
     setDarkTheme((prev) => {
