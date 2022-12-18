@@ -12,7 +12,7 @@ export default function Countries() {
         <>
             {loading ? <Loader /> :
                 <>
-                    <div className='px-16 pt-12 grid gap-y-10 max-sm:px-2 xl:gap-20 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+                    <div className='px-12 pt-12 grid gap-y-10 max-sm:px-2 xl:gap-20 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
                         {data.map((item) => {
                             return (
                                 <>

@@ -16,7 +16,7 @@ export default function SearchFilter() {
             try {
                 const response = await axios.get(`https://restcountries.com/v2/name/${searchValue}`);
                 const data = await response.data;
-                console.log(data);
+                // console.log(data);
                 setData(data);
                 setError(false);
             }
@@ -29,7 +29,7 @@ export default function SearchFilter() {
             try {
                 const response = await axios.get(`https://restcountries.com/v2/all`);
                 const data = await response.data;
-                console.log(data);
+                // console.log(data);
                 setData(data);
                 setError(false);
             }
@@ -50,7 +50,7 @@ export default function SearchFilter() {
                 try {
                     const response = await axios.get(`https://restcountries.com/v2/all`)
                     const data = await response.data;
-                    console.log(data)
+                    // console.log(data)
                     setData(data);
                     setError(false);
                 }
@@ -96,6 +96,7 @@ export default function SearchFilter() {
                     ref={regionSearchValue}
                     onChange={() => handleRegionChange()}>
                     <option value="All">Filter by region</option>
+                    <option value="All">All</option>
                     <option value="Africa">Africa</option>
                     <option value="Americas">America</option>
                     <option value="Europe">Europe</option>
