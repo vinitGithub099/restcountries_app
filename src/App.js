@@ -30,9 +30,6 @@ function App() {
         console.log(e); 
         setError(true) 
       })
-
-      bgColorSwitch(!darkTheme);
-
   }, [])
 
   const themeSwithcer = () => {

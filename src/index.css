@@ -18,9 +18,9 @@
   /* (Dark Mode Text & Light Mode Elements) */
 }
 
-/* body {
+body {
   background-color: var(--VeryLightGray);
-} */
+}
 
 .header-shadow-light {
   -webkit-box-shadow: 0px 1px 5px 0px var(--DarkGray);
