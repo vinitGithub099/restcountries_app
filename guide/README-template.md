@@ -75,3 +75,4 @@ I aim at learning advanced React.js and building better user-friendly single pag
 ## Acknowledgments
 
 Thanks to frontendmentor.io for a wonderful free API challenge. The challenge was not that easy but still got to learn a lot from this project. 
+
